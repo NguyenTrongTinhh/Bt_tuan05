@@ -173,6 +173,7 @@
     display: flex;
     margin-top: 30px;
     width: 80%;
+    flex-direction: column;
 }
 #end-one{
     display: flex;
@@ -184,4 +185,65 @@
 }
 .end-onetwo{
     display: flex;
+}
+#end-two{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.183);
+}
+#end-twoone{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 30px;
+    
+}
+.cmt-one{
+    margin-bottom: 30px;
+}
+.cmt-oneone{
+    display: flex;
+    width: 50%;
+}
+#end-twotwo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.cmt-onetwo{
+    display: flex;
+    width: 50%;
+}
+#end-three{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+#end-four{
+    display: flex;
+    width: 100%;
+}
+#end-four-one{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+}
+.pro-tilte{
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#end-four-two{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.068);
 }
