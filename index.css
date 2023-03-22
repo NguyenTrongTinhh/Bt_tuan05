@@ -72,7 +72,7 @@
     width: 100%;
     flex-direction: column;
     margin-left: 100px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 #content-one{
     display: flex;
@@ -114,10 +114,10 @@
 .two-img{
     display: flex;
     flex-direction: row;
-    margin-left:10px;
+    /* margin-left:10px; */
 }
 .image{
-    width: 100%;
+    width: 95%;
     border-radius: 5px;
 }
 #content-text{
@@ -250,4 +250,53 @@
     width: 25%;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.068);
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+#logo-foot{
+    display: flex;
+    justify-content: center;
+}
+#subcribe{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#input-sub{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+#input-text{
+    width: 300px;
+    height: 35px;
+    border:none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.128);
+}
+#foot-menu{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 80%;
+    justify-content: space-around;
+}
+.form{
+    margin-top: 7px;
+}
+#foot-end{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 100px;
+    padding-top: 25px;
+    justify-content: space-between;
 }
